@@ -1,0 +1,15 @@
+{
+  "name": "analisador-chamado-gemini",
+  "version": "1.0.0",
+  "description": "Projeto para gerar atualizacao de CRM e justificativa de SLA usando Gemini API e Vercel Functions.",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0"
+  },
+  "devDependencies": {
+    "vercel": "^34.3.0"
+  }
+}
